@@ -1,8 +1,24 @@
 aid: sisu-clinic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sisu-clinic.png
 name: Sisu Clinic
-description: Sisu Clinic is a company surfaced as a portfolio company of bullpen-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Sisu Clinic is a doctor-led medical aesthetics and cosmetic medicine provider that operates
+  a network of clinics offering treatments such as anti-wrinkle injections, dermal fillers, and skin
+  and skincare services delivered by qualified medical practitioners. It is a consumer healthcare brand
+  rather than an API provider - no public developer portal, API documentation, SDKs, or machine-readable
+  API surface was found on its website or in developer registries during this enrichment pass. This
+  profile was surfaced as a portfolio company of Bullpen Capital and added to the API Evangelist network
+  as a company record.
 url: https://raw.githubusercontent.com/api-evangelist/sisu-clinic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Medical Aesthetics
+- Cosmetic Medicine
+- Aesthetics
+- Clinic
+- Consumer Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sisu-clinic-domain-security.yml
 - type: Website
   url: https://www.sisuclinic.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
