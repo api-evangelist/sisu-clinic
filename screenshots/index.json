@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "sisu-clinic",
+    "captured_at": "2026-10-11T192553",
+    "source_url": "https://www.sisuclinic.com",
+    "source_type": "Website",
+    "file": "sisu-clinic-2026-10-11T192553.png",
+    "bytes": 468477,
+    "capture": "playwright-local"
+  }
+]
